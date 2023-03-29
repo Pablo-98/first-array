@@ -15,7 +15,7 @@ public class firstArray{
         System.out.println(a); // prints [I@7ad041f3] after the @, we get a location in where this array is stored in memory
 
         for(int i=0; i<b.length; i++) {
-            System.out.println(a[i]); // output a at index i;
+            System.out.println(b[i]); // output a at index i;
         }
     }
 }
